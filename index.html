@@ -4,34 +4,17 @@
 	<meta charset="utf-8">
     <meta name= "viewport" content="width=device-width, initial-scale=1">
 	<title>QuickMart Home</title>
-    <style type="text/css">
-    	*{
-        	text-decoration: none;
-        }
-        .navbar{
-        	background: teal; font-family: calibri; padding-left: 15px; padding-right: 15px;
-        }
-        .navdiv{
-        	display: flex; align-items: center; justify-content: space-between;
-        }
-        .logo a{
-        	font-size: 35px; font-weight: 600; color: black;
-        }
-        li a{
-        	color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
-        }
-       	button register{
-        background-color: white; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
-        }
-        button a{
-        	color: teal; font-weight: bold; font-size: 15px;}
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav class="navbar">
 	<div class="navdiv">
     	<div class="logo"><a href="#">QuickMart</a>
+        </div>
+        <div class="Search">
+            <input type="text" placeholder="Search" class="searchInput">
+            <button><a href="#"></a>Search</a></button>
         </div>
         <ul>
         	<!-- For Future Use
@@ -40,12 +23,52 @@
             <li><a href="#">Purchases</a></li>
             <li><a href="#">Sign Out</a></li>
             --->
-            <p>Get Started here!</p>
+            <p>New User? Get Started here!</p>
             <button><a href="#">Register</a></button>
             <button><a href="#">Login</a></button>
         </ul>
     </div>
 </nav>
+
+<!-- Item listing display -->
+<div class="listing">
+    <!-- Parts for each listing -->
+    <div class="image">
+        <img src="./" alt="itemImg" class="ItemImg" width="200px" height="200"px>
+    </div>
+    <p class="itemName">Item Name</p>
+    <p class="price">$50</p>
+    <button><a href="#">View Listing</a></button>
+
+    <div class="image">
+        <img src="./" alt="itemImg" class="ItemImg" width="200px" height="200"px>
+    </div>
+    <p class="itemName">Item Name</p>
+    <p class="price">$50</p>
+    <button><a href="#">View Listing</a></button>
+
+    <div class="image">
+        <img src="./" alt="itemImg" class="ItemImg" width="200px" height="200"px>
+    </div>
+    <p class="itemName">Item Name</p>
+    <p class="price">$50</p>
+    <button><a href="#">View Listing</a></button>
+
+    <div class="image">
+        <img src="./" alt="itemImg" class="ItemImg" width="200px" height="200px">
+    </div>
+    <p class="itemName">Item Name</p>
+    <p class="price">$50</p>
+    <button><a href="#">View Listing</a></button>
+
+    <div class="image">
+        <img src="./" alt="itemImg" class="ItemImg" width="200px" height="200px">
+    </div>
+    <p class="itemName">Item Name</p>
+    <p class="price">$50</p>
+    <button><a href="#">View Listing</a></button>
+</div>
+
 
 </body>
 </html>
