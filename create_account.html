@@ -17,12 +17,14 @@
       </div>
     </nav>
 
+    <h1>Create an Account</h1>
     <!-- Create Account Form -->
-    <div class="wrapper">
-      <form action="register.php" method="post">
-        <h1>Create an Account</h1>
+      <form method='post' action="process_account_form.php">
         <div class="input-box">
           <input type="text" name="username" placeholder="Username" required>
+        </div>
+        <div class="input-box">
+          <input type="text" name="password" placeholder="Password" required>
         </div>
         <div class="input-box">
           <input type="email" name="email" placeholder="Email" required>
@@ -36,11 +38,7 @@
         <div class="input-box">
           <input type="text" name="last_name" placeholder="Last Name" required>
         </div>
-        <div class="input-box">
-          <input type="text" name="address" placeholder="Address" required>
-        </div>
-        <button type="submit" class="btn">Sign Up</button>
+        <input type="submit" value="Create Account">
       </form>
-    </div>
   </body>
 </html>
