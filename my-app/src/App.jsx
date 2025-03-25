@@ -5,6 +5,8 @@ import NavigationBar from './components/common/Header/NavBar';
 import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
 import LoginPage from './pages/LoginPage';
+import RegistrationPage from './pages/RegistrationPage';
+
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/products" element={<ProductPage />} />
         {/* This route will load LoginPage at http://localhost:3000/login */}
         <Route path="/login" element={<LoginPage />} />
+        {/* This route will load RegestrationPage at http://localhost:3000/register */}
+        <Route path="/register" element={<RegistrationPage />} />
       </Routes>
     </Router>
   );
